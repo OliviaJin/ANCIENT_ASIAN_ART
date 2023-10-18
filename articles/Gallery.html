@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery of Painting.">
+	<title>Gallery of Painting</title>
+    <link rel="stylesheet" type="text/css" href="../styles/global.css">
+    <link rel="stylesheet" type="text/css" href="../styles/thumbnails.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h3 class="logo">Ancient Asian Art</h3>
+                <div id="nav-btns">
+                    <span id="openbtn">✚</span><span id="closebtn">✖︎</span>
+                </div>
+                <div class="navbar">
+                        <ul id="nav-list">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../articles/AAarticle.html">About</a></li>
+                            <li><a href="../articles/AAlist.html">Culture</a></li>
+                            <li>Gallery</li>
+
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <h1 class="big-title translate" data-speed="0.1">Aesthetics.</h1>
+
+        <img src="../images/cloud.png" class="cloud translate" data-speed="-0.25" alt="">
+        <img src="../images/header1.png" class="header1 translate" data-speed="-0.2" alt="">
+        <img src="../images/header2.png" class="header2 translate" data-speed="0.4" alt="">
+        <img src="../images/header3.png" class="header3 translate" data-speed="0.3" alt="">
+        <img src="../images/bg.png" class="bg translate" data-speed="0.5" alt="">
+    </header>
+    
+    <section>
+        <div class="shadow"></div>
+
+        <div class="container">
+            <div class="content opacity">
+                <h3 class="title">
+                    Gallery
+                    <div class="border"></div>
+                </h3>
+                <p>A gallery that collect lots of ancient asian paintings, click it to see more informations about the painting.</p>
+            </div>
+
+        </div>
+    </section>
+    <main>     
+        <div id="thumbnails">
+            <a href="https://www.metmuseum.org/art/collection/search/39901" target="_blank">
+                <img src="../images/G1.jpg" alt="Night-Shining White">
+            </a>
+    
+            <a href="https://www.metmuseum.org/art/collection/search/40284" target="_blank">
+                <img src="../images/G2.jpg" alt="Narcissus">
+            </a>    
+        
+            <a href="https://www.metmuseum.org/art/collection/search/40507" target="_blank">
+                <img src="../images/G3.jpg" alt="Grooms and horses">
+            </a>
+    
+            <a href="https://www.metmuseum.org/art/collection/search/41468" target="_blank">
+                <img src="../images/G4.jpg"  alt="Fisherman">
+            </a>
+   
+            <a href="https://www.metmuseum.org/art/collection/search/41154" target="_blank">
+                <img src="../images/G5.jpg" alt="Wind among the Trees on the Riverbank">
+            </a>
+   
+            <a href="https://www.metmuseum.org/art/collection/search/48948" target="_blank">
+                <img src="../images/G6.jpg" alt="The Sixteen Luohans">
+            </a>
+        </div> 
+    </main>
+
+    <section>
+        <div class="container">
+                <h3 class="title">
+                    If you could travel back in time ......
+                </h3>
+                <form id="form">
+                    <label for="type">Choose your gender </label>
+                    <select id="type" name="type">
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                    </select>
+    
+                    <label for="type">Choose your word </label>     
+                    <select id="type" name="type">
+                        <option value="Power">Power</option>
+                        <option value="Landscapes">Landscapes</option>
+                        <option value="Economy">Economy</option>
+                        <option value="Agriculture">Agriculture</option>
+                        <option value="Freedom">Freedom</option>
+                        <option value="Religion">Religion</option>
+                        <option value="Famous">Famous</option>
+                    </select>
+
+                    <button id="submit">Submit</button><br><br>
+                </form>
+
+                <div class="card">
+                    <div id="quickCard" class="card__face cardFront" style="line-height:260px;">You might draw</div>
+                    <div class="card__face card__face--back"><img style="width:280px;height:280px" id="paintPic"><p id="quickName">Painting Name</p></div>
+                </div>
+
+               <!---- <div class="scene scene--card">
+                    <div class="card">
+                        <div id="quickCard" class="card__face cardFront" style="font-family: 'Bradley Hand ITC';line-height:260px;">Painting</div>
+                        <div class="card__face card__face--back"><img style="width:280px;height:280px" id="foodPic" src="https://pic4.zhimg.com/80/v2-e4ffb5bde28d0f4c441190a41862f207_1440.jpg"><p id="quickName">Food Name</p></div>
+                    </div>
+                </div>-->
+        </div>
+    </section>
+    
+    <footer id="bottom-footer">
+        <address>Ancient Asian Art<sup>®</sup> ✿ 古代人物画谱</address>
+        </footer>
+
+    <script src="../scripts/Menu.js"></script>
+    <script src="../scripts/effect.js"></script>
+    <script src="../scripts/card.js"></script>
+</body>
+</html>

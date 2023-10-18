@@ -1,0 +1,32 @@
+#thumbnails { 
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+#thumbnails a {
+    margin: 3%;
+    flex: 0 1 35%;
+}
+#thumbnails img {
+    width: 100%;
+    height: auto;
+    transition-property: transform;
+    transition-duration: 1.5s;
+}
+#thumbnails img:hover {
+    transform: scale(1.25,1.25);
+}
+@media screen and (min-width: 768px) {
+    #thumbnails a {
+        margin: 4%;
+        flex: 0 1 25%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #thumbnails a {
+        margin: 5%;
+        flex: 0 1 22%;
+    }
+}
